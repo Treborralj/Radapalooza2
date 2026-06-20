@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saga</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+<main class="history-container">
+
+    <div id="date" class="date">
+        dagsetning
+    </div>
+
+
+    <div class="entrances">
+        <div class="entrance">
+            <span>5B</span>
+            <p>Biggi</p>
+        </div>
+
+        <div class="entrance">
+            <span>5A</span>
+            <p>Tinna</p>
+        </div>
+
+        <div class="entrance">
+            <span>4B</span>
+            <p>Robbi</p>
+        </div>
+
+        <div class="entrance">
+            <span>4A</span>
+            <p>Jóna</p>
+        </div>
+
+        <div class="entrance">
+            <span>3B</span>
+            <p>Sigga</p>
+        </div>
+
+        <div class="entrance">
+            <span>3A</span>
+            <p>Pétur</p>
+        </div>
+
+        <div class="entrance">
+            <span>2D</span>
+            <p>Bubbi</p>
+        </div>
+
+        <div class="entrance">
+            <span>2C</span>
+            <p>Siggi</p>
+        </div>
+
+        <div class="entrance">
+            <span>2F</span>
+            <p>Nonni</p>
+        </div>
+
+        <div class="entrance">
+            <span>2A</span>
+            <p>Ugla</p>
+        </div>
+    </div>
+
+    <div class="navigation">
+
+        <button class="nav-button" onclick="previousDay()">
+            &lt;
+        </button>
+
+        <input type="date" id="datePicker" hidden>
+
+        <button class="date-button" onclick="document.getElementById('datePicker').showPicker()">
+            Veldu dag
+        </button>
+
+        <button class="nav-button" onclick="nextDay()">
+            &gt;
+        </button>
+
+    </div>
+
+</main>
+
+</body>
+</html>
