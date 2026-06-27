@@ -10,6 +10,9 @@
 <body>
 
 <main class="history-container">
+    <a href="../index.html" class="logo">
+        Raða Palooza
+    </a>
 
     <div id="date" class="date">
         dagsetning
@@ -17,77 +20,76 @@
 
 
     <div class="entrances">
-        <div class="entrance">
+        <div class="entrance" data-entrance="5B">
             <span>5B</span>
-            <p>Biggi</p>
+            <p></p>
         </div>
 
-        <div class="entrance">
+        <div class="entrance" data-entrance="5A">
             <span>5A</span>
-            <p>Tinna</p>
+            <p></p>
         </div>
 
-        <div class="entrance">
+        <div class="entrance" data-entrance="4B">
             <span>4B</span>
-            <p>Robbi</p>
+            <p></p>
         </div>
 
-        <div class="entrance">
+        <div class="entrance" data-entrance="4A">
             <span>4A</span>
-            <p>Jóna</p>
+            <p></p>
         </div>
 
-        <div class="entrance">
+        <div class="entrance" data-entrance="3B">
             <span>3B</span>
-            <p>Sigga</p>
+            <p></p>
         </div>
 
-        <div class="entrance">
+        <div class="entrance" data-entrance="3A">
             <span>3A</span>
-            <p>Pétur</p>
+            <p></p>
         </div>
 
-            <div class="entrance">
+            <div class="entrance" data-entrance="2D">
                 <span>2D</span>
-                <p>Bubbi</p>
+                <p></p>
             </div>
 
-            <div class="entrance">
+            <div class="entrance" data-entrance="2C">
                 <span>2C</span>
-                <p>Siggi</p>
+                <p></p>
             </div>
 
-            <div class="entrance">
+            <div class="entrance" data-entrance="2F">
                 <span>2F</span>
-                <p>Nonni</p>
+                <p></p>
             </div>
 
-            <div class="entrance">
+            <div class="entrance" data-entrance="2A">
                 <span>2A</span>
-                <p>Ugla</p>
+                <p></p>
             </div>
 
     </div>
 
     <div class="navigation">
 
-        <button class="nav-button" onclick="previousDay()">
+        <button id="prevButton" class="nav-button">
             &lt;
         </button>
 
         <input type="date" id="datePicker" hidden>
 
-        <button class="date-button" onclick="document.getElementById('datePicker').showPicker()">
-            Veldu dag
+        <button id="dateButton" class="date-button">
         </button>
 
-        <button class="nav-button" onclick="nextDay()">
+        <button id="nextButton" class="nav-button">
             &gt;
         </button>
 
     </div>
 
 </main>
-
+<script src="../scripts/saga.js"></script>
 </body>
 </html>
